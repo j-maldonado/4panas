@@ -1,11 +1,12 @@
 import React from 'react'
 import './Cover.css'
-import coverVideo from '../cover/media/coverVideo.mp4'
+import coverVideo from '../../media/coverVideo.mp4'
 
 const Cover = () => {
   return (
-    <div className='coverContainer'>
-        
+    <div className='cover-Container'>
+   
+      <video className="video" src={coverVideo} autoPlay loop muted></video>
 
     </div>
   )
