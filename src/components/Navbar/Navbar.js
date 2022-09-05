@@ -1,18 +1,16 @@
 import React from 'react'
-import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from '../../media/img/4panas-Logo-noBG.png'
 import './Navbar.css'
-import {BiUserCircle} from 'react-icons/bi';
+import {FaUserAlt} from 'react-icons/fa';
 
 
 const Navbarc = () => {
   return (
-    <Navbar variant="dark" bg="dark" expand="lg">
+    <Navbar font-family="Helvetica" variant="dark" bg="dark" expand="lg">
       <Container fluid>
         <Navbar.Brand href="#">
           <img src={logo} height="70"></img>
@@ -45,9 +43,9 @@ const Navbarc = () => {
           </Nav>
         </Navbar.Collapse>
       </Container>
-      <button class="icon-btn add-btn">
-        <div class="add-icon"></div>
-        <div class="btn-txt"><BiUserCircle/></div>
+
+      <button>
+        <FaUserAlt />
       </button>
     </Navbar>
   );};
