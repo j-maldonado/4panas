@@ -1,5 +1,3 @@
-.Navbar-logo{
-    padding: 0%;
-    margin-right: 0%;
-    align-items: baseline;
-}
+.navbar-light .navbar-nav .active>.nav-link  {
+    color: red;
+   }

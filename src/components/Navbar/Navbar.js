@@ -10,7 +10,7 @@ import logo from '../../media/img/4panas-Logo-noBG.png'
 
 const Navbarc = () => {
   return (
-    <Navbar bg="dark" expand="lg">
+    <Navbar variant='dark' bg="dark" expand="lg">
       <Container fluid>
         <Navbar.Brand href="#"><img src={logo} height="70"></img></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -20,31 +20,24 @@ const Navbarc = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">Link</Nav.Link>
-            <NavDropdown title="Link" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Another action
-              </NavDropdown.Item>
+            <NavDropdown title="Productos" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Monitores</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Notebooks</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Teclados</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Mouse</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Gabinetes</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Mothers</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Placas de Video</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action5">
-                Something else here
+                Todos los productos
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#" disabled>
-              Link
-            </Nav.Link>
+            <Nav.Link href="#action2">Marcas</Nav.Link>
+            <Nav.Link href="#action2">¿Quienes somos?</Nav.Link>
+            <Nav.Link href="#action2">Contactanos</Nav.Link>
           </Nav>
-          <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-success">Search</Button>
-          </Form>
+          
         </Navbar.Collapse>
       </Container>
     </Navbar>
