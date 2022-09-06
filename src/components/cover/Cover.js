@@ -15,7 +15,7 @@ const Cover = () => {
       <video className="video" src={coverVideo} autoPlay loop muted />
 
       <div className="carousel-container" >
-        <Carousel className="carousel" variant="dark" controls='false'>
+        <Carousel className="carousel" variant="dark" controls={false} interval={3000} wrap={true}>
           <Carousel.Item>
             <img className="d-block-w-100" src={oferta1} alt="First slide" />
           </Carousel.Item>
