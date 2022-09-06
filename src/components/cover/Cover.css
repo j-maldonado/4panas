@@ -1,13 +1,10 @@
 .carousel-container{
-    border: 5px solid;
-    border-color: rgb(154, 83, 226);
-    height: 345px;
     width: 100%;
 }
 .Carousel.Item img{
-
+    
     max-width: 100%;
-    max-height: 250px;
+    min-height: 100%;
 }
 .cover-Container {
     height: 100vh;

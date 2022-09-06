@@ -1,127 +1,119 @@
 import React from "react";
 import './footer.css'
+import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
+import { BsInstagram, BsFacebook, BsTwitter, BsLinkedin ,BsGithub, BsWhatsapp } from 'react-icons/bs';
+import logo from '../../media/img/4panas-Logo-noBG.png'
 
 const Footerc = () => {
   return (
-    <footer class="text-center text-lg-start bg-light text-muted">
-      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-        <div class="me-5 d-none d-lg-block">
-          <span>Get connected with us on social networks:</span>
-        </div>
-
-        <div>
-          <a href="" class="me-4 text-reset">
-            <i class="fab fa-facebook-f"></i>
+    <footer>
+       <MDBFooter bgColor='dark' className='text-center text-lg-start text-muted'>
+      <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
+        <div className="social-container">
+          <a href='' className='me-4 text-reset'>
+           <BsFacebook/>
           </a>
-          <a href="" class="me-4 text-reset">
-            <i class="fab fa-twitter"></i>
+          <a href='' className='me-4 text-reset'>
+          <BsTwitter/>
           </a>
-          <a href="" class="me-4 text-reset">
-            <i class="fab fa-google"></i>
+          <a href='' className='me-4 text-reset'>
+          <BsInstagram />
           </a>
-          <a href="" class="me-4 text-reset">
-            <i class="fab fa-instagram"></i>
+          <a href='' className='me-4 text-reset'>
+          <BsWhatsapp/>
           </a>
-          <a href="" class="me-4 text-reset">
-            <i class="fab fa-linkedin"></i>
+          <a href='' className='me-4 text-reset'>
+          <BsGithub/>
           </a>
-          <a href="" class="me-4 text-reset">
-            <i class="fab fa-github"></i>
+          <a href='' className='me-4 text-reset'>
+           <BsLinkedin/>
           </a>
         </div>
       </section>
 
-      <section class="">
-        <div class="container text-center text-md-start mt-5">
-          <div class="row mt-3">
-            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-              <h6 class="text-uppercase fw-bold mb-4">
-                <i class="fas fa-gem me-3"></i>Company name
-              </h6>
-              <p>
-                Here you can use rows and columns to organize your footer
-                content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit.
-              </p>
-            </div>
+      <section className=''>
+        <MDBContainer className='text-center text-md-start mt-5'>
+          <MDBRow className='mt-3'>
+            <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
+              <img item-center width='70%' src={logo}/>
+            </MDBCol>
 
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-              <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+            <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4'>Productos</h6>
               <p>
-                <a href="#!" class="text-reset">
+                <a href='#!' className='text-reset'>
                   Angular
                 </a>
               </p>
               <p>
-                <a href="#!" class="text-reset">
+                <a href='#!' className='text-reset'>
                   React
                 </a>
               </p>
               <p>
-                <a href="#!" class="text-reset">
+                <a href='#!' className='text-reset'>
                   Vue
                 </a>
               </p>
               <p>
-                <a href="#!" class="text-reset">
+                <a href='#!' className='text-reset'>
                   Laravel
                 </a>
               </p>
-            </div>
+            </MDBCol>
 
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-              <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+            <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4'>Links Utiles</h6>
               <p>
-                <a href="#!" class="text-reset">
-                  Pricing
+                <a href='#!' className='text-reset'>
+                  Lista de Precios
                 </a>
               </p>
               <p>
-                <a href="#!" class="text-reset">
+                <a href='#!' className='text-reset'>
                   Settings
                 </a>
               </p>
               <p>
-                <a href="#!" class="text-reset">
-                  Orders
+                <a href='#!' className='text-reset'>
+                  Ordenes
                 </a>
               </p>
               <p>
-                <a href="#!" class="text-reset">
-                  Help
+                <a href='#!' className='text-reset'>
+                  Ayuda
                 </a>
               </p>
-            </div>
+            </MDBCol>
 
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4'>Contacto</h6>
               <p>
-                <i class="fas fa-home me-3"></i> New York, NY 10012, US
+                <MDBIcon icon="home" className="me-2" />
+                Buenos Aires, CABA 1765, Arg
               </p>
               <p>
-                <i class="fas fa-envelope me-3"></i>
-                info@example.com
+                <MDBIcon icon="envelope" className="me-3" />
+                info@4panastech.com
               </p>
               <p>
-                <i class="fas fa-phone me-3"></i> + 01 234 567 88
+                <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
               </p>
               <p>
-                <i class="fas fa-print me-3"></i> + 01 234 567 89
+                <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
               </p>
-            </div>
-          </div>
-        </div>
+            </MDBCol>
+          </MDBRow>
+        </MDBContainer>
       </section>
 
-      <div
-        class="text-center p-4"
-        style="background-color: rgba(0, 0, 0, 0.05);"
-      >
-        © 2021 Copyright:
-        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">
-          MDBootstrap.com
+      <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+        © 2022 Copyright:
+        <a className='text-reset fw-bold' href=''>
+          4PanasDevs
         </a>
       </div>
+    </MDBFooter>
     </footer>
   );
 };

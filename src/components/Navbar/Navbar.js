@@ -1,11 +1,13 @@
 import React from 'react'
+
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from '../../media/img/4panas-Logo-noBG.png'
 import './Navbar.css'
-import {FaUserAlt} from 'react-icons/fa';
+import { BiLogIn } from 'react-icons/bi';
+
 
 
 const Navbarc = () => {
@@ -44,10 +46,14 @@ const Navbarc = () => {
         </Navbar.Collapse>
       </Container>
 
-      <button>
-        <FaUserAlt />
+      <button class="learn-more">
+        <span class="circle" aria-hidden="true">
+          <span class="icon arrow"></span>
+        </span>
+        <span class="button-text">Login</span>
       </button>
     </Navbar>
-  );};
+  );
+};
 
 export default Navbarc;
