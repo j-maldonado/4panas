@@ -9,23 +9,24 @@ const Footerc = () => {
     <footer>
        <MDBFooter bgColor='dark' className='text-center text-lg-start text-muted'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
+        
         <div className="social-container">
-          <a href='' className='me-4 text-reset'>
+          <a href='https://facebook.com' target='_blank' className='me-4 text-reset'>
            <BsFacebook/>
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://twitter.com' target='_blank' className='me-4 text-reset'>
           <BsTwitter/>
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://www.instagram.com/4panastech/' target='_blank' className='me-4 text-reset'>
           <BsInstagram />
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://api.whatsapp.com/send?phone=5491157558051&text=Hola%204%20Panas%F0%9F%94%B5%20quer%C3%ADa%20consultarles%20respecto%20a%20' target='_blank' className='me-4 text-reset'>
           <BsWhatsapp/>
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://github.com/j-maldonado/4panas' target='_blank' className='me-4 text-reset'>
           <BsGithub/>
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://linkedin.com' target='_blank' className='me-4 text-reset'>
            <BsLinkedin/>
           </a>
         </div>
