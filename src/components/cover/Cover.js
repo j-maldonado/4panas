@@ -12,8 +12,6 @@ import oferta3 from '../../media/img/oferta3.png'
 const Cover = () => {
   return (
     <div className="cover-Container">
-      <video className="video" src={coverVideo} autoPlay loop muted />
-
       <div className="carousel-container" >
         <Carousel className="carousel" variant="dark" controls={false} interval={3000} wrap={true}>
           <Carousel.Item>

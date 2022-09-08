@@ -7,7 +7,7 @@ const Flwhatsappc = () => {
 
   return (
     <div className="whatsappFl">
-      <FloatingWhatsApp phoneNumber="+5491557558051" accountName="4 Panas Tech" avatar={logo} statusMessage='Activo' chatMessage='¡Hola! 😁 Bienvenido a 4 Panas Tech. Decime, ¿En que podemos ayudarte? 🤔' placeholder="Escribe un mensaje aqui..." darkMode='true' notification='true'  />
+      <FloatingWhatsApp phoneNumber="+5491557558051" accountName="4 Panas Tech" avatar={logo}  chatMessage='¡Hola! 😁 Bienvenido a 4 Panas Tech. Decime, ¿En que podemos ayudarte? 🤔' placeholder="Escribe un mensaje aqui..." darkMode='true' notification='true'  />
     </div>
   )
 };
