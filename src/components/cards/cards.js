@@ -9,6 +9,9 @@ import headset from '../../media/img/headset.png'
 import placavideo from '../../media/img/placavideo.png'
 import ram from '../../media/img/ram.png'
 import gabinete from '../../media/img/gabinete.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const Cards = () => {
   return (
