@@ -2,7 +2,7 @@ import React from "react";
 import './footer.css'
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 import { BsInstagram, BsFacebook, BsTwitter, BsLinkedin ,BsGithub, BsWhatsapp } from 'react-icons/bs';
-import logo from '../../media/img/4panas-Logo-noBG.png'
+import logo from '../../media/img/4panas-Logo-noBG.webp'
 
 const Footerc = () => {
   return (

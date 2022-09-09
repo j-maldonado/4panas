@@ -3,12 +3,12 @@ import "./cards.css";
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Carousel from 'react-bootstrap/Carousel';
-import monitor from "../../media/img/Monitor.png";
-import notebook from "../../media/img/Notebook.png";
-import headset from '../../media/img/headset.png'
-import placavideo from '../../media/img/placavideo.png'
-import ram from '../../media/img/ram.png'
-import gabinete from '../../media/img/gabinete.png'
+import monitor from "../../media/img/Monitor.webp";
+import notebook from "../../media/img/Notebook.webp";
+import headset from '../../media/img/headset.webp'
+import placavideo from '../../media/img/placavideo.webp'
+import ram from '../../media/img/ram.webp'
+import gabinete from '../../media/img/gabinete.webp'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
